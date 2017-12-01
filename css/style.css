@@ -1,0 +1,537 @@
+
+p {
+	font-size: 20px;
+	text-align: center;
+	font-family: verdana;
+	margin: 60px;
+}
+body{
+	background-color: white;
+	margin: 0px;
+	padding: 0px;  
+
+}
+.logo{
+	margin:20px 0px 0px 50px;
+	font-size: 60px;
+	font-family: 'Dancing Script', cursive;
+	font-style: italic;
+	color: #8eb640;
+}
+nav{
+	display: flex;
+}
+a {
+	text-decoration: none;
+	justify-content: flex-end;
+	color: white;
+	align-items: center;
+	padding: 0px 20px 0px 30px;
+	font-size: 24px;
+
+}
+a:hover{
+	color: #8eb640;
+	transition: all 0.4s;
+}
+header {
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed-top;
+	
+ }
+.kk{
+	background-image: url(http://www.templatewire.com/preview/touche/img/intro-bg.jpg);
+	background-size: cover;
+	width: auto;
+	height: auto;
+
+}
+div{
+	display: block;
+}
+.uvod
+{
+	margin: 100px 0px 60px 0px;
+	display: flex;
+	
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+
+
+}
+.uvod h1{
+	margin: 90px 0px 30px 0px;
+	font-size: 120px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	margin-bottom: 0px;
+	display: block;
+	border: none;
+	text-align: center;
+}
+
+.uvod p{
+	margin: 20px 0px 0px 20px;
+	font-size: 40px;
+	font-family: 'Dancing Script', cursive;
+	color: white;
+	margin-top: 0px;
+}
+.uvod button{
+	margin: 50px;
+	font-size: 20px;
+	border: none;
+	background-color: #8eb640;
+	
+	padding: 12px;
+	color: white;
+}
+.tekst{  
+	color: grey;
+	
+
+}
+.csslika img {  
+	margin: 50px;
+	width:auto;
+
+}
+div{
+	display: block;
+}
+.csslika{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+	color: #8eb640;
+	margin: 10px;
+}
+p{
+	font-size: 16px;
+	margin: 15px;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+	color: #8eb640;  
+	margin: 10px;
+}
+.csslika hr {
+	border: 3px solid #8eb640;
+	border-radius: 70%;
+}
+div{
+	display: block;
+}
+.menu{
+	width: auto;
+}
+
+.menuslika {  
+	background-image: url("https://nemanja177.github.io/touche/slike/menu-bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.zatamljenje {
+	display: flex;
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 70px;
+}
+h4 {
+	font-size: 40px;
+	color: white;
+	margin: 0;
+	
+}
+.zatamljenje hr {
+	border:0;
+	background: #8eb640;
+	width: 10%;
+	height: 2px;
+
+}
+p {
+	color: gray;
+	font-size: 20px;
+}
+.levakolona h5 {
+	text-align: center;
+	font-size: 30px;
+	color: #8eb640;
+	margin: 10px;
+
+}
+.levakolona hr {
+	align-self: center;
+	border: 0;
+	width: 25%;
+	height: 2px;
+	background: #8eb640;
+	margin: 0;
+
+}
+.levakolona {
+	margin: 30px 100px 100px 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.levakolona h6 {
+	margin-top: 40px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	border-bottom: 2px dotted grey;
+}
+.menutext {
+	display: flex;
+
+}
+.menutekst {
+	font-size: 15px;
+	color:grey ;
+	margin: 10px;
+	width: 50%;
+	font-style: italic;
+}
+.desnakolona {
+	margin: 30px 100px 100px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.desnakolona h6{
+	margin-top: 40px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	border-bottom: 2px dotted grey;
+
+}
+.desnakolona h5 {
+	text-align: center;
+	font-size: 30px;
+	color: #8eb640;
+	margin:  10px;
+}
+.levakolona h6 {
+	font-size: 20px;
+	color: black;
+	margin: 8px;
+}
+.desnakolona h6 {
+	font-size: 20px;
+	color: black;
+	margin:8px;
+}
+.desnakolona hr {
+	width: 25%;
+	height: 2px;
+	background: #8eb640;
+	border: 0;
+	align-self: center;
+	margin: 0;
+}
+.galerija1{
+	width: auto;
+	position: relative;
+}
+.galerijaslika {
+	background-image: url("http://www.mariapartel.rs/wp-content/uploads/2015/12/000_5718-obrada-2048x1367.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: auto;
+}
+.zatamljenje10 {
+	padding: 90px;
+	background-color: rgba(0,0,0,0.6);
+	height: 100%;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.zatamljenje10 h1 {
+	color: #8eb640;
+	text-align: center;
+	font-size: 40px;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	margin: 5px;
+
+}
+.zatamljenje10 hr{
+	height: 2px;
+	width: 11%;
+	align-self: center;
+	background: white;
+	border: 0;
+}
+.slike999{
+	margin: 50px 70px 50px 70px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.slika9000 {
+	background-image: url("https://nemanja177.github.io/touche/slike/01-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+	background-color: rgba(0,0,0,0.6);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.otext p {
+	font-size: 24px;
+	color: white;
+	position: absolute;
+	top: 34%;
+	left: 34%;
+	transform: (-34%, -34%)
+
+
+}
+
+.slika9000:hover > .overlay {
+	opacity: 1;
+}
+.slika9001 {
+	background-image: url("https://nemanja177.github.io/touche/slike/02-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9002 {
+	background-image: url("https://nemanja177.github.io/touche/slike/03-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9003 {
+	background-image: url("https://nemanja177.github.io/touche/slike/04-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9004 {
+	background-image: url("https://nemanja177.github.io/touche/slike/05-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9005 {
+	background-image: url("https://nemanja177.github.io/touche/slike/06-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9006 {
+	background-image: url("https://nemanja177.github.io/touche/slike/07-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9007 {
+	background-image: url("https://nemanja177.github.io/touche/slike/08-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9008 {
+	background-image: url("https://nemanja177.github.io/touche/slike/09-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9009 {
+	background-image: url("https://nemanja177.github.io/touche/slike/10-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9010 {
+	background-image: url("https://nemanja177.github.io/touche/slike/11-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9011 {
+	background-image: url("https://nemanja177.github.io/touche/slike/12-small.jpg");
+	width: 350px;
+	height: 250px;
+	margin: 20px;
+	position: relative;
+}
+.slika9001:hover > .overlay {
+	opacity: 1;
+}
+.slika9002:hover > .overlay {
+	opacity: 1;
+}
+.slika9003:hover > .overlay {
+	opacity: 1;
+}
+.slika9004:hover > .overlay {
+	opacity: 1;
+}
+.slika9005:hover > .overlay {
+	opacity: 1;
+}
+.slika9006:hover > .overlay {
+	opacity: 1;
+}
+.slika9007:hover > .overlay {
+	opacity: 1;
+}
+.slika9008:hover > .overlay {
+	opacity: 1;
+}
+.slika9009:hover > .overlay {
+	opacity: 1;
+}
+.slika9010:hover > .overlay {
+	opacity: 1;
+}
+.slika9011:hover > .overlay {
+	opacity: 1;
+}
+.viljuska {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.mariatext {
+	
+}
+.mariaslika {
+	background-image: url("http://www.mariapartel.rs/wp-content/uploads/2014/05/cover02-2048x1366.jpg");
+	width: auto;
+	height: auto;
+	background-attachment:fixed;
+	background-size: cover;
+}
+.mariatext h1 {
+	font-family: "Dancing Script";
+	font-size: 100px;
+	color: white;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0;
+	padding-top: 70px;
+	font-style: italic;
+}
+.mariatext p {
+	font-size: 60px;
+	font-style: italic;
+	color: white;  
+	padding-bottom: 30px;
+	font-family: "Dancing Script";
+	margin: 5px;
+}
+.rezervacija {
+	background-color: #8eb640;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+}
+.rezervacija h1 {
+	font-size: 28px;
+	color: white;
+	font-family: "Raleway";
+	font-style: italic;
+	padding: 10px 5px;
+	font-weight: normal;
+
+}
+.ark {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	background-color: #262626;
+	padding: 20px;
+}
+.adresa {
+	width: 300px;
+	font-size: 20px;
+	color: #8eb640;
+	font-family: "Raleway";
+	text-align: center;
+}
+.ark p {
+	font-size: 20px;
+	margin: 5px;
+
+
+}
+.vreme {
+	width: 300px;
+	color: #8eb640;
+	font-size: 20px;
+	font-family: "Raleway";
+	text-align: center;
+}
+.kontakti {
+	width: 300px;
+	color: #8eb640;
+	font-size: 20px;
+	font-family: "Raleway";
+	text-align: center;
+}
+footer {
+	background-color: #8eb640;
+	justify-content: center;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: normal;
+	text-align: center;
+	display: flex;
+}
